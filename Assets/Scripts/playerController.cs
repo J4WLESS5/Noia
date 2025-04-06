@@ -22,9 +22,17 @@ public class playerController : MonoBehaviour
     {
         yRotation = (int)transform.eulerAngles.y;
 
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKey(KeyCode.D))
         {
             rotatingLeft = true;
+            rotatingRight = false;
+            initRotate = true;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            rotatingRight = true;
+            rotatingLeft = false;
             initRotate = true;
         }
 
@@ -32,11 +40,16 @@ public class playerController : MonoBehaviour
         {
             transform.Rotate(Vector3.up, rotateSpeed);
         }
+
+        if (rotatingRight == true)
+        {
+            transform.Rotate(Vector3.down, rotateSpeed);
+        }
     }
 
     void LateUpdate()
     {
-        if (yRotation == 0)
+        if (yRotation  == 0)
         {
             StopRotation();
         }
@@ -66,5 +79,15 @@ public class playerController : MonoBehaviour
 
             Debug.Log("stop rotate");
         }
+    }
+
+    void StartRotationLeft()
+    {
+        rotatingLeft = true;
+    }
+
+    void StartRotationRight()
+    {
+        rotatingRight = true;
     }
 }
