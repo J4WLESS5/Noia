@@ -63,7 +63,7 @@
     <Compile Include="Assets\Scripts\flashlightController.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\disableTestLight.cs" />
-    <Compile Include="Assets\Scripts\cameraPos.cs" />
+    <Compile Include="Assets\Scripts\CameraPos.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

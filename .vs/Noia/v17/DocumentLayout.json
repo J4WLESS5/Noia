@@ -1,107 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josh1\\Noia\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\Noia\\assets\\scripts\\disabletestlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disabletestlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\Noia\\assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\Noia\\assets\\scripts\\camerapos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\josh1\\Noia\\Assets\\Scripts\\monsterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\monsterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\student\\Documents\\GitHub\\Noia\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "monsterController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\monsterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\monsterController.cs",
-              "ToolTip": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\monsterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\monsterController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:57:31.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "disableTestLight.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\disableTestLight.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\disableTestLight.cs",
-              "ToolTip": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\disableTestLight.cs",
-              "RelativeToolTip": "Assets\\Scripts\\disableTestLight.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:54:02.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "flashlightController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\flashlightController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\flashlightController.cs",
-              "ToolTip": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\flashlightController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\flashlightController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T01:47:25.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cameraPos.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\cameraPos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\cameraPos.cs",
-              "ToolTip": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\cameraPos.cs",
-              "RelativeToolTip": "Assets\\Scripts\\cameraPos.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:10:18.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playerController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\playerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\playerController.cs",
-              "ToolTip": "C:\\Users\\josh1\\Noia\\Assets\\Scripts\\playerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\playerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T18:05:12.907Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

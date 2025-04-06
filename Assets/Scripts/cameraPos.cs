@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraPos : MonoBehaviour
+public class CameraPos : MonoBehaviour
 {
     //attach the player to this, obviously
     public GameObject player;

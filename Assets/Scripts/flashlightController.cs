@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class flashlightController : MonoBehaviour
@@ -18,23 +16,8 @@ public class flashlightController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            if (flashlightToggle == true)
-            {
-                flashlightToggle = false;
-                flashlightObject.SetActive(flashlightToggle);
-            }
-        }
-    }
-
-    void LateUpdate()
-    {
-        if (Input.GetKeyUp(KeyCode.F))
-        {
-            if (flashlightToggle == false)
-            {
-                flashlightToggle = true;
-                flashlightObject.SetActive(flashlightToggle);
-            }
+            flashlightToggle = !flashlightToggle;
+            flashlightObject.SetActive(flashlightToggle);
         }
     }
 }
