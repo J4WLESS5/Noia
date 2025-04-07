@@ -36,12 +36,12 @@ public class playerController : MonoBehaviour
             initRotate = true;
         }
 
-        if (rotatingLeft == true)
+        if (rotatingLeft)
         {
             transform.Rotate(Vector3.up, rotateSpeed);
         }
 
-        if (rotatingRight == true)
+        if (rotatingRight)
         {
             transform.Rotate(Vector3.down, rotateSpeed);
         }
