@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\disableTestLight.cs" />
     <Compile Include="Assets\Scripts\cameraPos.cs" />
     <Compile Include="Assets\Scripts\Managers\API\DiscordRPCManager.cs" />
+    <Compile Include="Assets\Scripts\sanityMeter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

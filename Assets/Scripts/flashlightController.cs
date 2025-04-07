@@ -1,12 +1,16 @@
 using UnityEngine;
+using TMPro;
 
 public class flashlightController : MonoBehaviour
 {
     public bool flashlightToggle = true;
-    public GameObject flashlightObject;
-    public float battery = 100;
+    public bool flashlightDead = false;
+    public int batteryInt;
+    public float batteryFloat = 100;
     public float batteryDrainRate = 0.01f;
     public float batteryRechargeRate = 0.1f;
+    public TMP_Text batteryText;
+    public GameObject flashlightObject;
 
     // Start is called before the first frame update
     void Start()
@@ -17,20 +21,35 @@ public class flashlightController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        batteryInt = (int)batteryFloat;
+        batteryText.SetText("Flashlight Battery: " + batteryInt + "%");
+
+        if (Input.GetKeyDown(KeyCode.F) && flashlightDead == false)
         {
             flashlightToggle = !flashlightToggle;
             flashlightObject.SetActive(flashlightToggle);
         }
 
-        if (flashlightToggle == true && battery > 0)
+        if (flashlightToggle == true && batteryInt > 0)
         {
-            battery = battery - batteryDrainRate;
+            batteryFloat = batteryFloat - batteryDrainRate;
         }
 
-        if (flashlightToggle == false && battery < 100)
+        if (flashlightToggle == false && batteryInt < 100)
         {
-            battery = battery + batteryRechargeRate;
+            batteryFloat = batteryFloat + batteryRechargeRate;
+        }
+
+        if (batteryInt <= 0)
+        {
+            flashlightToggle = false;
+            flashlightObject.SetActive(flashlightToggle);
+            flashlightDead = true;
+        }
+
+        if (batteryInt >= 100)
+        {
+            flashlightDead = false;
         }
     }
 }

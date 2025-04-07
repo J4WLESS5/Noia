@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour
     private bool rotatingRight = false;
     private bool initRotate = false;
     private int yRotation;
+    public int station;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class playerController : MonoBehaviour
             rotatingLeft = true;
             rotatingRight = false;
             initRotate = true;
+            station = station - 1;
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -34,6 +36,12 @@ public class playerController : MonoBehaviour
             rotatingRight = true;
             rotatingLeft = false;
             initRotate = true;
+            station = station + 1;
+        }
+
+        if (station == -2)
+        {
+            station = 2;
         }
 
         if (rotatingLeft)
