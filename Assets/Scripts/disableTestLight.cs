@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class disableTestLight : MonoBehaviour
+public class DisableTestLight : MonoBehaviour
 {
     private GameObject testLight;
 

@@ -7,6 +7,7 @@ public class MonsterController : MonoBehaviour
     public int phase;
     public int phaseTimer;
     public int phaseChance;
+    public PlayerController player;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,7 @@ public class MonsterController : MonoBehaviour
             phaseTimer = 0;
         }
 
-        if (phaseChance == 10)
+        if (player.lookingAtMonster == false && phaseChance == 10)
         {
             phase = phase + 1;
             phaseChance = 0;
@@ -52,6 +53,7 @@ public class MonsterController : MonoBehaviour
         if (phase == 5)
         {
             Debug.Log("oh no you got eaten by the monster you dead now oh nooooo");
+            player.playerDead = true;
             transform.position = new Vector3(3.42f, -1.5f, 0);
             phase = 0;
         }

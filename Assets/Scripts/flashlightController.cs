@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class flashlightController : MonoBehaviour
+public class FlashlightController : MonoBehaviour
 {
     public bool flashlightToggle = true;
     public bool flashlightDead = false;

@@ -2,15 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using TMPro;
 
-public class playerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private float rotateSpeed = 1f;
-    private bool rotatingLeft = false;
-    private bool rotatingRight = false;
+    public bool rotatingLeft = false;
+    public bool rotatingRight = false;
+    public bool lookingAtMonster = false;
     private bool initRotate = false;
+    public bool playerDead = false;
     private int yRotation;
     public int station;
+    public GameObject gameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +25,14 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (playerDead == true)
+        {
+            gameOver.SetActive(true);
+        }
+    }
+
+    void LateUpdate()
+    {
         yRotation = (int)transform.eulerAngles.y;
 
         if (Input.GetKey(KeyCode.D))
@@ -28,7 +40,6 @@ public class playerController : MonoBehaviour
             rotatingLeft = true;
             rotatingRight = false;
             initRotate = true;
-            station = station - 1;
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -36,12 +47,26 @@ public class playerController : MonoBehaviour
             rotatingRight = true;
             rotatingLeft = false;
             initRotate = true;
-            station = station + 1;
         }
 
-        if (station == -2)
+        if (station == 4)
         {
-            station = 2;
+            station = 0;
+        }
+
+        if (station == -1)
+        {
+            station = 3;
+        }
+
+        if (station == 1)
+        {
+            lookingAtMonster = true;
+        }
+
+        else
+        {
+            lookingAtMonster = false;
         }
 
         if (rotatingLeft)
@@ -53,28 +78,29 @@ public class playerController : MonoBehaviour
         {
             transform.Rotate(Vector3.down, rotateSpeed);
         }
-    }
 
-    void LateUpdate()
-    {
         if (yRotation  == 0)
         {
             StopRotation();
+            station = 0;
         }
 
         if (yRotation == 90)
         {
             StopRotation();
+            station = 1;
         }
 
         if (yRotation == 180)
         {
             StopRotation();
+            station = 2;
         }
 
         if (yRotation == 270)
         {
             StopRotation();
+            station = 3;
         }
     }
 

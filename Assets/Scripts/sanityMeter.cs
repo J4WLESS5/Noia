@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class sanityMeter : MonoBehaviour
+public class SanityMeter : MonoBehaviour
 {
     public float sanityFloat = 100;
     public float sanityDrainRate = 0.001f;
     public int sanityInt;
     public TMP_Text sanityText;
-    public flashlightController flashlight;
+    public FlashlightController flashlight;
+    public MonsterController monster;
+    public PlayerController player;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +23,14 @@ public class sanityMeter : MonoBehaviour
     void Update()
     {
         sanityText.SetText("Sanity: " + sanityInt + "%");
+
         sanityInt = (int)sanityFloat;
-        sanityFloat = sanityFloat - sanityDrainRate;
+
+        if (player.playerDead == false)
+        {
+            sanityFloat = sanityFloat - sanityDrainRate;
+        }
+
         if (flashlight.flashlightToggle == false)
         {
             sanityDrainRate = 0.01f;
@@ -31,6 +39,22 @@ public class sanityMeter : MonoBehaviour
         else
         {
             sanityDrainRate = 0.001f;
+        }
+
+        if (monster.phase == 4 && player.lookingAtMonster == true)
+        {
+            sanityDrainRate = sanityDrainRate + 0.1f;
+        }
+
+        else
+        {
+            sanityDrainRate = sanityDrainRate;
+        }
+
+        if (sanityInt == 0)
+        {
+            player.playerDead = true;
+            Debug.Log("oh no you dead you got too silly oh nooooo :((((");
         }
     }
 }

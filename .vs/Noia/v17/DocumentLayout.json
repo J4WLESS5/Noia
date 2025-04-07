@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\sanitymeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sanitymeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\disabletestlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\disabletestlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\flashlightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\sanitymeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sanitymeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "sanityMeter.cs",
+              "DocumentIndex": 0,
+              "Title": "DisableTestLight.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\DisableTestLight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisableTestLight.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\DisableTestLight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisableTestLight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T21:14:42.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanityMeter.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\sanityMeter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\sanityMeter.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\sanityMeter.cs",
               "RelativeToolTip": "Assets\\Scripts\\sanityMeter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:14:04.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "flashlightController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\flashlightController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\flashlightController.cs",
-              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\flashlightController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\flashlightController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T01:48:52.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "playerController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\playerController.cs",
-              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\playerController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:36:53.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:14:04.764Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FlashlightController.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\flashlightController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\flashlightController.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\flashlightController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\flashlightController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T01:48:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:36:53.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DiscordRPCManager.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T23:18:38.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MonsterController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterController.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MonsterController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwBsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T22:36:39.637Z"
             }
