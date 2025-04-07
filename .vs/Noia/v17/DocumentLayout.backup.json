@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Documents\\GitHub\\Noia\\",
+  "WorkspaceRootPath": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\student\\documents\\github\\noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\student\\documents\\github\\noia\\assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\student\\Documents\\GitHub\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DiscordRPCManager.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T23:18:38.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "playerController.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\playerController.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\playerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\playerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:36:53.621Z"
+              "WhenOpened": "2025-04-06T22:36:53.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MonsterController.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterController.cs",
-              "ToolTip": "C:\\Users\\student\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MonsterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T22:36:39.637Z",
               "EditorCaption": ""

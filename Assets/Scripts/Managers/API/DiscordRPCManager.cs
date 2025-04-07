@@ -5,8 +5,8 @@ using UnityEngine;
 public class DiscordRPCManager : MonoBehaviour
 {
     // Details about the rich presence
-    public string details = "Being A Goofy Little Goober LOL!";
-    public string state = "Bruh Moment :p";
+    public string details = "Surviving the Factory";
+    public string state = "";
     public string largeImageKey = "";  // Must match an asset uploaded in the application!!!
     public string largeImageText = "";  // The text that shows when a user on Discord hovers over the large icon
 

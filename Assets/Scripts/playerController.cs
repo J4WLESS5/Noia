@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    public float rotateSpeed = 0.5f;
-    public bool rotatingLeft = false;
-    public bool rotatingRight = false;
-    public bool initRotate = false;
-    public int yRotation;
+    private float rotateSpeed = 1f;
+    private bool rotatingLeft = false;
+    private bool rotatingRight = false;
+    private bool initRotate = false;
+    private int yRotation;
 
     // Start is called before the first frame update
     void Start()
@@ -74,20 +74,5 @@ public class playerController : MonoBehaviour
     {
         rotatingLeft = false;
         rotatingRight = false;
-        if (initRotate == true)
-        {
-
-            Debug.Log("stop rotate");
-        }
-    }
-
-    void StartRotationLeft()
-    {
-        rotatingLeft = true;
-    }
-
-    void StartRotationRight()
-    {
-        rotatingRight = true;
     }
 }
