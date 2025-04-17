@@ -11,11 +11,14 @@ public class FlashlightController : MonoBehaviour
     public float batteryRechargeRate = 0.1f;
     public TMP_Text batteryText;
     public GameObject flashlightObject;
+    private AudioSource audioSource;
+    public AudioClip onSound;
+    public AudioClip offSound;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,7 +30,18 @@ public class FlashlightController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && flashlightDead == false)
         {
             flashlightToggle = !flashlightToggle;
+
             flashlightObject.SetActive(flashlightToggle);
+
+            if (flashlightToggle == true)
+            {
+                audioSource.PlayOneShot(onSound);
+            }
+
+            if (flashlightToggle == false)
+            {
+                audioSource.PlayOneShot(offSound);
+            }
         }
 
         if (flashlightToggle == true && batteryInt > 0)
