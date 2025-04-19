@@ -63,8 +63,10 @@
     <Compile Include="Assets\Scripts\DisableTestLight.cs" />
     <Compile Include="Assets\Scripts\MonsterController.cs" />
     <Compile Include="Assets\Scripts\Managers\API\DiscordRPCManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\FulscreenGameView.cs" />
     <Compile Include="Assets\Scripts\SanityMeter.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Managers\PostProcessing.cs" />
     <Compile Include="Assets\Scripts\FlashlightController.cs" />
   </ItemGroup>
   <ItemGroup>

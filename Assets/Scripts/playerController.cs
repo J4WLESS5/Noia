@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     public bool rotatingLeft = false;
     public bool rotatingRight = false;
     public bool lookingAtMonster = false;
-    private bool initRotate = false;
     public bool playerDead = false;
     private int yRotation;
     public int station;
@@ -19,7 +18,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Screen.fullScreen = true;
     }
 
     // Update is called once per frame
@@ -39,14 +38,12 @@ public class PlayerController : MonoBehaviour
         {
             rotatingLeft = true;
             rotatingRight = false;
-            initRotate = true;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             rotatingRight = true;
             rotatingLeft = false;
-            initRotate = true;
         }
 
         if (station == 4)

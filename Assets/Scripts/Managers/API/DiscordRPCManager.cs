@@ -1,3 +1,4 @@
+using System;
 using Discord;
 using UnityEditor;
 using UnityEngine;
@@ -16,30 +17,37 @@ public class DiscordRPCManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _client = new Discord.Discord(_applicationId, (System.UInt64) Discord.CreateFlags.Default);
-        var activityManager = _client.GetActivityManager();
-        var activity = new Discord.Activity()
+        try
         {
-            Details = details,
-            State = state,
-            Assets = new Discord.ActivityAssets()
+            _client = new Discord.Discord(_applicationId, (System.UInt64)Discord.CreateFlags.Default);
+            var activityManager = _client.GetActivityManager();
+            var activity = new Discord.Activity()
             {
-                LargeImage = largeImageKey,
-                LargeText = largeImageText
-            }
-        };
-        
-        activityManager.UpdateActivity(activity, (res) =>
+                Details = details,
+                State = state,
+                Assets = new Discord.ActivityAssets()
+                {
+                    LargeImage = largeImageKey,
+                    LargeText = largeImageText
+                }
+            };
+
+            activityManager.UpdateActivity(activity, (res) =>
+            {
+                if (res == Discord.Result.Ok)
+                {
+                    Debug.Log("Discord RPC was setup successfully!");
+                }
+                else
+                {
+                    Debug.Log("Oh noesies, Discord RPC failed to make a callback :(");
+                }
+            });
+        }
+        catch (Exception e)
         {
-            if (res == Discord.Result.Ok)
-            {
-                Debug.Log("Discord RPC was setup successfully!");
-            }
-            else
-            {
-                Debug.Log("Oh noesies, Discord RPC failed to initialize :(");
-            }
-        });
+            Debug.Log("User does not have Discord open! Ignoring setup...");
+        }
     }
 
     // Update is called once per frame
