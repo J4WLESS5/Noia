@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System;
 using System.Reflection;
 using UnityEditor;
@@ -52,3 +54,5 @@ public static class FullscreenGameView
         }
     }
 }
+
+#endif
