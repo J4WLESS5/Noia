@@ -64,7 +64,9 @@
     <Compile Include="Assets\Scripts\MonsterController.cs" />
     <Compile Include="Assets\Scripts\Managers\API\DiscordRPCManager.cs" />
     <Compile Include="Assets\Scripts\Managers\FullscreenGameView.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SanityMeter.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\LoopBG.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Managers\PostProcessing.cs" />
     <Compile Include="Assets\Scripts\FlashlightController.cs" />
@@ -84,6 +86,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Fonts\jd_digital_credit.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

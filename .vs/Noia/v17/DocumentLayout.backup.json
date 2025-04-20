@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Main Menu\\BackgroundScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Main Menu\\BackgroundScroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\managers\\fullscreengameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\fullscreengameview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\FulscreenGameView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\FulscreenGameView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +50,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "BackgroundScroller.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Main Menu\\BackgroundScroller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Main Menu\\BackgroundScroller.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Main Menu\\BackgroundScroller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Main Menu\\BackgroundScroller.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T01:02:42.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T00:28:59.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FullscreenGameView.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\FullscreenGameView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\FullscreenGameView.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\FullscreenGameView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\FullscreenGameView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T19:45:38.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FulscreenGameView.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\FulscreenGameView.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\FulscreenGameView.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\FulscreenGameView.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\FulscreenGameView.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T19:40:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DisableTestLight.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\DisableTestLight.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DisableTestLight.cs",
@@ -50,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FlashlightController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\FlashlightController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FlashlightController.cs",
@@ -62,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -70,12 +134,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T22:36:53.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T22:36:53.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DiscordRPCManager.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
@@ -83,12 +146,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\API\\DiscordRPCManager.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAwwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:18:38.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T23:18:38.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MonsterController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\MonsterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterController.cs",
@@ -100,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SanityMeter.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\sanityMeter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\sanityMeter.cs",

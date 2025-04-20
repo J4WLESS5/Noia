@@ -663,7 +663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -846, y: 389}
+  m_AnchoredPosition: {x: -846, y: 442.00003}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369946446
@@ -1524,7 +1524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -848, y: 326}
+  m_AnchoredPosition: {x: -848, y: 379}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1003112351
@@ -1839,7 +1839,6 @@ GameObject:
   - component: {fileID: 1691457071}
   - component: {fileID: 1691457070}
   - component: {fileID: 1691457072}
-  - component: {fileID: 1691457073}
   - component: {fileID: 1691457074}
   - component: {fileID: 1691457075}
   m_Layer: 0
@@ -1898,22 +1897,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4430146e50d8ee049a1cc89dedd8867e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1691457073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691457069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c440273cdf35f241a65623366fa4bce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  details: Surviving the Factory
-  state: 
-  largeImageKey: 
-  largeImageText: 
 --- !u!114 &1691457074
 MonoBehaviour:
   m_ObjectHideFlags: 0
