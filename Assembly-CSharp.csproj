@@ -60,16 +60,21 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DisableTestLight.cs" />
-    <Compile Include="Assets\Scripts\MonsterController.cs" />
+    <Compile Include="Assets\Scripts\Game\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Main Menu\ChangeDiscordRPC.cs" />
+    <Compile Include="Assets\Scripts\Game\Interactor.cs" />
+    <Compile Include="Assets\Scripts\Game\SanityMeter.cs" />
     <Compile Include="Assets\Scripts\Managers\API\DiscordRPCManager.cs" />
+    <Compile Include="Assets\Scripts\Game\MonsterController.cs" />
     <Compile Include="Assets\Scripts\Managers\FullscreenGameView.cs" />
+    <Compile Include="Assets\Scripts\Game\DisableTestLight.cs" />
+    <Compile Include="Assets\Scripts\Game\Generator.cs" />
+    <Compile Include="Assets\Scripts\Game\PostProcessing.cs" />
+    <Compile Include="Assets\Scripts\Game\DebugManager.cs" />
     <Compile Include="Assets\Scripts\Main Menu\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\SanityMeter.cs" />
     <Compile Include="Assets\Scripts\Main Menu\LoopBG.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Managers\PostProcessing.cs" />
-    <Compile Include="Assets\Scripts\FlashlightController.cs" />
+    <Compile Include="Assets\Scripts\Game\MemTransfer.cs" />
+    <Compile Include="Assets\Scripts\Game\FlashlightController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1029,6 +1034,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{0853D6C4-D3A0-9C1F-8300-C42DD33607C0}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.daburo.smoothshakefree.csproj">
+      <Project>{9C592B87-F371-F235-AE0B-14900973B1BF}</Project>
+      <Name>com.daburo.smoothshakefree</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

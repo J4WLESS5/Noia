@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private int yRotation;
     public int station;
     public GameObject gameOver;
+    public Generator generator;
 
     // Start is called before the first frame update
     void Start()
@@ -34,13 +35,13 @@ public class PlayerController : MonoBehaviour
     {
         yRotation = (int)transform.eulerAngles.y;
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && generator.generatorOn == true)
         {
             rotatingLeft = true;
             rotatingRight = false;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && generator.generatorOn == true)
         {
             rotatingRight = true;
             rotatingLeft = false;
@@ -64,6 +65,16 @@ public class PlayerController : MonoBehaviour
         else
         {
             lookingAtMonster = false;
+        }
+
+        if (station == 5)
+        {
+            gameObject.transform.position = new Vector3(-0.5f, 1.26f, 0f);
+        }
+
+        else
+        {
+            gameObject.transform.position = new Vector3(0f, 1.26f, 0f);
         }
 
         if (rotatingLeft)

@@ -1424,6 +1424,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1614163401}
+        m_TargetAssemblyTypeName: ChangeDiscordRPC, Assembly-CSharp
+        m_MethodName: InGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1095610691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2284,7 @@ GameObject:
   - component: {fileID: 1614163398}
   - component: {fileID: 1614163399}
   - component: {fileID: 1614163400}
+  - component: {fileID: 1614163401}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2337,6 +2350,20 @@ MonoBehaviour:
   state: 
   largeImageKey: 
   largeImageText: 
+  discordRunning: 1
+--- !u!114 &1614163401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614163396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd3e87952f967c4e8956245cf6c98d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  discord: {fileID: 1614163400}
 --- !u!1 &1966843701
 GameObject:
   m_ObjectHideFlags: 0

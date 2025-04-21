@@ -10,6 +10,7 @@ public class DiscordRPCManager : MonoBehaviour
     public string state = "";
     public string largeImageKey = "";  // Must match an asset uploaded in the application!!!
     public string largeImageText = "";  // The text that shows when a user on Discord hovers over the large icon
+    public bool discordRunning = true;
 
     private Discord.Discord _client;
     private long _applicationId = 1358581834966892594;  // ID of the Discord Application
@@ -17,37 +18,30 @@ public class DiscordRPCManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        try
+        _client = new Discord.Discord(_applicationId, (System.UInt64)Discord.CreateFlags.Default);
+        var activityManager = _client.GetActivityManager();
+        var activity = new Discord.Activity()
         {
-            _client = new Discord.Discord(_applicationId, (System.UInt64)Discord.CreateFlags.Default);
-            var activityManager = _client.GetActivityManager();
-            var activity = new Discord.Activity()
+            Details = details,
+            State = state,
+            Assets = new Discord.ActivityAssets()
             {
-                Details = details,
-                State = state,
-                Assets = new Discord.ActivityAssets()
-                {
-                    LargeImage = largeImageKey,
-                    LargeText = largeImageText
-                }
-            };
+                LargeImage = largeImageKey,
+                LargeText = largeImageText
+            }
+        };
 
-            activityManager.UpdateActivity(activity, (res) =>
-            {
-                if (res == Discord.Result.Ok)
-                {
-                    Debug.Log("Discord RPC was setup successfully!");
-                }
-                else
-                {
-                    Debug.Log("Oh noesies, Discord RPC failed to make a callback :(");
-                }
-            });
-        }
-        catch (Exception e)
+        activityManager.UpdateActivity(activity, (res) =>
         {
-            Debug.Log("User does not have Discord open! Ignoring setup...");
-        }
+            if (res == Discord.Result.Ok)
+            {
+                Debug.Log("Discord RPC was setup successfully!");
+            }
+            else
+            {
+                Debug.Log("Oh noesies, Discord RPC failed to initialize :(");
+            }
+        });
     }
 
     // Update is called once per frame
