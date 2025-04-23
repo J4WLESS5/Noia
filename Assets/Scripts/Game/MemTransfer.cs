@@ -6,17 +6,66 @@ public class MemTransfer : MonoBehaviour
 {
     public PlayerController player;
     public GameObject monitorPrompt;
+    public GameObject errorMessage;
+    public GameObject transferMessage;
+    public Generator generator;
+    public AudioSource monitorAudio;
     public bool lookingAtMonitor;
+    public bool monitorError;
+    public int errorTimer;
+    public int errorChance;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        monitorAudio = GetComponent<AudioSource>();
+    }
+
+    void FixedUpdate()
+    {
+        errorTimer = errorTimer + 1;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (errorTimer == 10)
+        {
+            errorChance = Random.Range(0, 11);
+            errorTimer = 0;
+        }
+
+        if (errorChance == 10)
+        {
+            monitorError = true;
+        }
+
+        if (monitorError == true)
+        {
+            if (generator.gameStart == true)
+            {
+                if (!monitorAudio.isPlaying)
+                {
+                    monitorAudio.Play();
+                }
+
+                errorMessage.SetActive(true);
+                transferMessage.SetActive(false);
+
+                if (Input.GetKey(KeyCode.R))
+                {
+                    monitorError = !monitorError;
+                }
+            }
+        }
+
+        else
+        {
+            errorMessage.SetActive(false);
+            transferMessage.SetActive(true);
+            monitorAudio.Stop();
+        }
+
         if (player.station == 3)
         {
             monitorPrompt.SetActive(true);
