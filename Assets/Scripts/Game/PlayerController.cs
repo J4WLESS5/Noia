@@ -7,19 +7,31 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     private float rotateSpeed = 1f;
+    public float endGameTimer;
+    public bool endGame;
     public bool rotatingLeft = false;
     public bool rotatingRight = false;
     public bool lookingAtMonster = false;
     public bool playerDead = false;
     private int yRotation;
     public int station;
-    public GameObject gameOver;
+    public Vector3 scarePos;
+    public MonsterController monster;
     public Generator generator;
+    public GameObject gameOver;
+    public GameObject flashGif;
+    public Animator flashAnimator;
+    public AudioClip jumpscareSound;
+    
+
 
     // Start is called before the first frame update
     void Start()
     {
         Screen.fullScreen = true;
+        scarePos = new Vector3(-8.047f, 1.694f, -0.205f);
+        flashGif = GameObject.Find("flash-gif");
+        flashAnimator = flashGif.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +40,22 @@ public class PlayerController : MonoBehaviour
         if (playerDead == true)
         {
             gameOver.SetActive(true);
+        }
+
+        if (monster.jumpscare == true)
+        {
+            transform.position = scarePos;
+            transform.rotation = Quaternion.identity;
+            transform.rotation = Quaternion.Euler(0, 90, 0);
+            monster.monsterSound.PlayOneShot(jumpscareSound);
+            endGameTimer = endGameTimer - 0.01f;
+        }
+
+        if (endGameTimer < 0 && endGame == false)
+        {
+            endGame = true;
+            flashGif.transform.position = new Vector3(-8f, 1.5f, 0f);
+            flashAnimator.SetBool("Flash", true);
         }
     }
 
@@ -67,12 +95,12 @@ public class PlayerController : MonoBehaviour
             lookingAtMonster = false;
         }
 
-        if (station == 5)
+        if (station == 5 && monster.jumpscare == false)
         {
             gameObject.transform.position = new Vector3(-0.5f, 1.26f, 0f);
         }
 
-        else
+        else if (monster.jumpscare == false)
         {
             gameObject.transform.position = new Vector3(0f, 1.26f, 0f);
         }

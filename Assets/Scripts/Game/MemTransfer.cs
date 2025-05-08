@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MemTransfer : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class MemTransfer : MonoBehaviour
 
         if (monitorError == true)
         {
+            Debug.Log("Tranfer Error!");
             if (generator.gameStart == true)
             {
                 if (!monitorAudio.isPlaying)
@@ -88,6 +90,14 @@ public class MemTransfer : MonoBehaviour
             {
                 lookingAtMonitor = false;
                 player.station = 3;
+            }
+
+            if (generator.gameWin == true && monitorError == false)
+            {
+                if (Input.GetKey(KeyCode.R))
+                {
+                    SceneManager.LoadScene("Post-Game");
+                }
             }
         }
 

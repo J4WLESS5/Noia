@@ -18,6 +18,7 @@ public class Generator : MonoBehaviour, IInteractable
     public SmoothShake shake;
     public SmoothShake generatorShake;
     public FlashlightController flashlight;
+    public MemTransfer monitor;
     public AudioSource audioSource;
     public AudioSource ambienceAudioSource;
     public AudioClip onSound;
@@ -98,7 +99,7 @@ public class Generator : MonoBehaviour, IInteractable
 
     public void FixedUpdate()
     {
-        if (gameStart == true)
+        if (gameStart == true && monitor.monitorError == false)
         {
             gameTime = gameTime - 1;
         }

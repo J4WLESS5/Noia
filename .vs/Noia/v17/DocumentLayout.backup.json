@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\game\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\post-game\\postgameplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\post-game\\postgameplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|c:\\users\\josh1\\onedrive\\documents\\github\\noia\\assets\\scripts\\game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\memtransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\memtransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\postprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\typewriterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\typewriterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\memtransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\memtransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\game\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\post-game\\postgameplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\post-game\\postgameplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED42AC5-AE7F-A4EE-21CE-3098E046C55D}|Assembly-CSharp.csproj|C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\assets\\scripts\\managers\\api\\discordrpcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PostGamePlayerController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Post-Game\\PostGamePlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Post-Game\\PostGamePlayerController.cs",
@@ -66,31 +66,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MonsterController.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\MonsterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\MonsterController.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\MonsterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\MonsterController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwBUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T22:24:06.694Z"
+              "WhenOpened": "2025-04-21T22:24:06.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\PlayerController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T22:04:09.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MemTransfer.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\MemTransfer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\MemTransfer.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\MemTransfer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\MemTransfer.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T21:23:12.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Generator.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\Generator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\Generator.cs",
@@ -98,44 +112,31 @@
               "RelativeToolTip": "Assets\\Scripts\\Game\\Generator.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:28:18.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T21:28:18.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "TypewriterUI.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\TypewriterUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\TypewriterUI.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\TypewriterUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\TypewriterUI.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEwAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T16:31:06.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PostProcessing.cs",
               "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PostProcessing.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PostProcessing.cs",
               "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PostProcessing.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\PostProcessing.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T23:43:43.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\josh1\\OneDrive\\Documents\\GitHub\\Noia\\Assets\\Scripts\\Game\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Game\\PlayerController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwCsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T22:04:09.156Z"
             },
             {
               "$type": "Document",
